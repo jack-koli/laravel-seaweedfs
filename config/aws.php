@@ -22,6 +22,7 @@ return [
     ],
     'region' => env('AWS_REGION', 'us-east-1'),
     'version' => 'latest',
+    'validate' => false,
     'ua_append' => [
         'L5MOD/' . AwsServiceProvider::VERSION,
     ],
